@@ -6,5 +6,4 @@ export default function handler(req, res) {
     const recipes = db.prepare('SELECT * FROM recipes ORDER BY title').all();
       res.status(200).json(recipes)
   }
-
 }
