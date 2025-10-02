@@ -20,6 +20,7 @@ export default function recipeDetails() {
             {recipeDetails.map((recipeDetail) => (
                 <div>
                     <h1>{recipeDetail.ingredient_name}</h1>
+                    <h2>{recipeDetail.quantity}</h2>
                 </div>
             ))}
         </div>

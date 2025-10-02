@@ -27,6 +27,7 @@ console.log("hello")
             <Link href='/recipe-details'>
               <h1>{recipe.title}</h1>
             </Link>
+            <p>{recipe.description}</p>
           </div>
         ))}
       </div>
